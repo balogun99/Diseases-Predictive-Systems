@@ -1,6 +1,17 @@
+
 streamlit
 scikit-learn
 streamlit-option-menu
 numpy
 pandas
-# pickle
+
+
+[09:36:11] 🐍 Python dependencies were installed from /mount/src/diseases-predictive-systems/requirements.txt using uv.
+
+Check if streamlit is installed
+
+Streamlit is already installed
+
+[09:36:13] 📦 Processed dependencies!
+
+2026-10-22 09:36:14.921 Uvicorn server started on :::8501
