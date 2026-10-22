@@ -14,9 +14,8 @@ with st.sidebar:
     selected = option_menu("Diseases Predictive System", 
                            ['Diabetes Disease Prediction',
                             'Heart Disease Prediction',
-                            'Kidney Disease Prediction',
-                            'Calorie Burn Prediction'],
-                            icons = ['activity', 'heart', 'activity', 'person'],
+                            'Kidney Disease Prediction'],
+                            icons = ['activity', 'heart', 'activity'],
                             default_index=0)
     
 # Diabetes Prediction
