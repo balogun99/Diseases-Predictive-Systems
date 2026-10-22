@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+ml_env/
+.ipynb_checkpoints/
+nano .gitignore
+# Exclude oversized Calorie Burn model
+/Calorie Burn Predictive System/calorie_model.sav
+# Exclude oversized calorie prediction models
+Calorie Burn Predictive System/calorie_model.sav
+saved models/calorie_model.sav
