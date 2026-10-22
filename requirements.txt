@@ -1,10 +1,6 @@
 streamlit
 scikit-learn
-<<<<<<< HEAD
 streamlit-option-menu
 numpy
 pandas
-=======
 # pickle
-streamlit-option-menu
->>>>>>> 63f9335 (updates; added streamlit_option_menu, numpy and pandas)
