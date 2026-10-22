@@ -172,49 +172,4 @@ if (selected == 'Kidney Disease Prediction'):
             kidney_diag = 'Dialysis Present'
     st.success(kidney_diag)
 
-# # calorie
-# if(selected == 'Calorie Burn Prediction'):
-    
-#     # title
-#     st.title('Calorie Burn Predictive System Using Machine Learning')
-    
-#     # columns
-#     col1, col2, col3 = st.columns(3)
-
-#     with col1:
-#         Gender = st.text_input("Gender (1 - Female, 0 - Male)")
-
-#     with col2:
-#         Age = st.text_input("Age")
-
-#     with col3:
-#         Height = st.text_input("Height")
-
-#     with col1:
-#         Weight = st.text_input("Weight")
-
-#     with col2:
-#         Duration = st.text_input("Duration")
-
-#     with col3:
-#         Heart_Rate = st.text_input("Heart Rate")
-
-#     with col1:
-#         Body_Temp = st.text_input("Body Temperature")
-
-#     # prediction
-#     calorie_prediction = ''
-
-#     if st.button('Calorie Burn Prediction Test Result'):
-        
-#         # Gender	Age	Height	Weight	Duration	Heart_Rate	Body_Temp
-#         calorie_result = calories_model.predict([[Gender, Age, Height, Weight, Duration, Heart_Rate, Body_Temp]])
-
-#         if(calorie_result[0] == 1):
-#             calorie_prediction = 'High Calories'
-#         else:
-#             calorie_prediction = 'Low Calories'
-
-#         st.success(calorie_prediction)
-
 # 0,69,179.0,79.0,5.0,88.0,38.7
